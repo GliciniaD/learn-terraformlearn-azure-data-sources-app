@@ -40,4 +40,3 @@ resource "azurerm_linux_virtual_machine" "app" {
     storage_account_type = "Standard_LRS"
   }
 }
-```
