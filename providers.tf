@@ -8,3 +8,9 @@ data "terraform_remote_state" "network" {
     key                   = "network.tfstate"
   }
 }
+
+
+provider "azurerm" {
+  features {}
+}
+
