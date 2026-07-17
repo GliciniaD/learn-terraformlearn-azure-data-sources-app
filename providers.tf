@@ -5,7 +5,7 @@ data "terraform_remote_state" "network" {
   backend = "azurerm"
 
   config = {
-    resource_group_name  = "tfstate-rg"
+    resource_group_name  = "rg-terraformdataquery"
     storage_account_name = "saastfstatedata"
     container_name        = "containertfstatedata"
     key                   = "network.tfstate"
