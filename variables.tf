@@ -7,5 +7,5 @@ variable "instances_per_subnet" {
 variable "ssh_public_key_path" {
   description = "Path to the SSH public key file for VM admin login"
   type        = string
-  default     = "~/.ssh/id_rsa.pub"
+  default     = "C:/Users/Owner/.ssh/id_rsa.pub"
 }
